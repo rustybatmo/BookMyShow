@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GetMyTicket</title>
+</head>
+<body>
+  <div class="container">
+    <div class="pick-a-movie-section">
+      <form action="" id='form'>
+        <label for=""><small>Pick a movie:</small></label>
+        <select name="Select movie" id="movie">
+          <option value="10">Avengers : Endgame($10)</option>
+          <option value="12">Joker : 12$</option>
+          <option value="8">Toy Story 4: 8$</option>
+          <option value="9">The Lion King: 9$</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="legend">
+      <div class="legend-content">
+        <div class="seat seat-grey"></div><small>N/A</small>
+        <div class="seat selected"></div><small>Selected</small>
+        <div class="seat occupied"></div><small>Occupied</small>
+      </div>
+    </div> 
+
+    <div class="screen"></div>
+    <div class="seat-container">   
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+      </div>
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+      </div>
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+      </div>
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat occupied"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+      </div>
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat occupied"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+      </div>
+      <div class="row">
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat occupied"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat seat-grey"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+    </div>
+    <br><br>
+    <p>You have selected <span class = 'bottom' id="count">0</span> for a price of $ <span class = 'bottom' id="cost" >0</span></p>
+  </div>
+  <script src = 'app.js'></script>
+</body>
+</html>
